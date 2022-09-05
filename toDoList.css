@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#main {
+    background-color: orangered;
+    width: 60%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: .5rem;
+    color: orange;
+    margin-bottom: 1rem;
+}
+
+#main h1,
+h3 {
+    background-color: white;
+    padding: .5rem;
+    border-radius: .3rem;
+}
+
+#form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#input {
+    padding: .4rem;
+    width: 60%;
+    outline: none;
+    border: none;
+    border-radius: .3rem 0 0 .3rem;
+}
+
+#btnAdd {
+    width: 20%;
+    padding: .4rem;
+    outline: none;
+    border: none;
+    background-color: aquamarine;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 0 .3rem .3rem 0;
+}
+
+#list {
+    width: 60%;
+    list-style-type: none;    
+}
+
+.listBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+    width: 100%;
+    height: 3rem;
+    margin-bottom: .6rem;
+    box-shadow: 0 0 5px 0;
+    font-size: 1.1rem;
+    border-radius: .3rem;
+    padding-right:.5rem;
+}
+
+.listId {
+    width:100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+
+}
+
+.deleteBtn {
+    background-color: red;
+    color: white;
+    padding: .5rem;
+    border-radius: .2rem;
+    width: 10%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.tamamlandi {
+    background-color: rgb(58, 125, 134);
+}
+.line{
+    text-decoration-line: line-through;
+}
